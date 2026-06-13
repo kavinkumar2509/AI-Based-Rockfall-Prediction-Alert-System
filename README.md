@@ -1,6 +1,6 @@
-AI-Based Rockfall Management System for Open-Pit Mines
+# AI-Based Rockfall Management System for Open-Pit Mines
 
-Project Overview
+## Project Overview
 
 
 The AI-Based Rockfall Management System is designed to enhance safety and operational efficiency in open-pit mining environments by providing real-time monitoring, risk assessment, and predictive analysis of potential rockfall events. Rockfalls pose a significant threat to workers, equipment, and mining operations, often resulting in accidents, production delays, and financial losses. This project leverages IoT sensors, cloud computing, and machine learning techniques to continuously monitor mine slope conditions and identify early warning signs of instability.
@@ -10,13 +10,13 @@ The system collects data from various sensors, including vibration sensors, tilt
 A web-based dashboard provides mine operators and safety personnel with real-time visibility into sensor readings, risk levels, alert notifications, and historical trends. In high-risk situations, the system can trigger automatic alerts through alarms, notifications, or warning messages, enabling timely evacuation and preventive action. The platform also supports historical data analysis, helping engineers understand slope behavior and improve future risk management strategies.
 
 
-Problem Statement
+## Problem Statement
 
 
 Open-pit mines are vulnerable to rockfall incidents caused by geological instability, excessive vibration, rainfall infiltration, slope deformation, and other environmental factors. Traditional monitoring methods rely heavily on manual inspections and periodic assessments, which may fail to detect early warning signs. There is a need for an intelligent, automated system capable of continuously monitoring slope conditions and predicting potential rockfall hazards before they occur.
 
 
-Objectives
+## Objectives
 
 Monitor mine slope conditions in real time using IoT sensors.
 Collect and store environmental and geological data.
@@ -27,7 +27,7 @@ Provide a centralized monitoring dashboard.
 Support predictive maintenance and safety management.
 Reduce accidents, equipment damage, and operational downtime.
 
-System Modules
+## System Modules
 
 1. User Management Module
 
@@ -62,7 +62,7 @@ Provides graphical representations of sensor data, risk maps, alerts, and histor
 Generates reports for analysis, auditing, and safety compliance purposes.
 
 
-Use Cases
+## Use Cases
 
 User Login and Authentication
 Monitor Live Sensor Data
@@ -108,30 +108,30 @@ User Management Page
 
 The dashboard serves as the primary interface, displaying live sensor readings, current risk levels, active alerts, and analytical charts.
 
-Frontend
+## Frontend
 
 React.js
 HTML5
 CSS3
 JavaScript
 
-Backend
+## Backend
 
 Python (Flask/FastAPI)
-Database
+## Database
 MySQL
-Machine Learning
+## Machine Learning
 Scikit-learn
 Random Forest
 XGBoost
 LSTM (Future Enhancement)
-IoT Hardware
+## IoT Hardware
 ESP32
 Vibration Sensor
 Tilt Sensor
 Moisture Sensor
 Rainfall Sensor
 Crack Detection Sensor
-Communication
+## Communication
 MQTT Protocol
 REST APIs
