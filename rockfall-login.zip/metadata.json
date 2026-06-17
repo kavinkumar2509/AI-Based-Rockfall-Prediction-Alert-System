@@ -1,0 +1,6 @@
+{
+  "name": "Rockfall Command Center",
+  "description": "Open-Pit Mine Safety Monitoring System with real-time telemetry, advanced risk sensors, automated safety protocols, and AI geotechnical analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
