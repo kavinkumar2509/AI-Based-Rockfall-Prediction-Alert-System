@@ -260,6 +260,12 @@ app.get("/create-test-user", async (req, res) => {
     message: "Test user created",
   });
 });
+app.get("/", (req, res) => {
+  res.json({
+    project: "AI-Based Rockfall Management System",
+    status: "Running"
+  });
+});
 app.listen(5000, () => {
   console.log("🚀 Server running on port 5000");
 });
