@@ -53,7 +53,7 @@ const [alerts, setAlerts] = useState<any[]>([]);
 useEffect(() => {
   const fetchSensors = async () => {
     try {
-      const response = await fetch("http://localhost:5000/sensors");
+      const response = await fetch("https://rockfall-backend-7qfn.onrender.com/sensors");
       const data = await response.json();
 
       setTelemetry(data);
@@ -72,7 +72,7 @@ useEffect(() => {
   const fetchStats = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/dashboard-stats"
+        "https://rockfall-backend-7qfn.onrender.com/dashboard-stats"
       );
 
       const data = await response.json();
@@ -89,7 +89,7 @@ useEffect(() => {
   const fetchAlerts = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/alerts"
+        "https://rockfall-backend-7qfn.onrender.com/alerts"
       );
 
       const data = await response.json();
