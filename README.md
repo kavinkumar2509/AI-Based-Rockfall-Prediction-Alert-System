@@ -1,5 +1,15 @@
 # AI-Based Rockfall Management System for Open-Pit Mines
 
+## Live Demo
+
+🔗 Frontend: https://rockfall-frontend.onrender.com
+
+🔗 Backend API: https://rockfall-backend-7qfn.onrender.com
+
+## Test Credentials
+
+Username: kavin
+
 ## Project Overview
 
 
